@@ -2,7 +2,7 @@
 
 # Function to display usage information
 function display_usage() {
-    echo "Usage: $0 [-d domain] [-t delay_in_seconds]"
+    echo "Usage: $0 [-d domain] [-t delay]"
     echo ""
     echo "Options:"
     echo "  -d   The domain to use in the command (required)"
