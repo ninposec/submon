@@ -21,31 +21,18 @@ https://github.com/tomnomnom/anew
 
 To install Submon, follow these steps:
 
-Clone the Submon GitHub repository to your local machine:
+Clone the repository to your local machine:
 
 ```bash
 git clone https://github.com/ninposec/submon.git
-```
-
-Navigate to the Submon directory:
-
-Install the required dependencies using pip:
-
-```bash
 cd submon
-pip install -r requirements.txt
-```
-
-Make the submon script executable:
-
-```bash
 chmod +x submon.sh
 ```
 
 
 ### Usage
 
-To use Submon, run the submon command with the following options:
+To use Submon, run the script with the following options:
 
 ```bash
 ./submon.sh 
@@ -61,6 +48,7 @@ Replace <domain> with the domain name you want to search for subdomains of, and 
 For example, to search for subdomains of example.com and receive notifications every hour, you would run:
 
 ```bash
-Submon -d example.com -t 30m
+screen -R 5
+./submon.sh -d example.com -t 60m
 ```
 
