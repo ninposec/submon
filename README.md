@@ -1,6 +1,6 @@
 ### Submon
 
-Submon is a simple bash script tool to monitor domains for new subdomains, and receiving Discord/Slack notifications when new subdomains are discovered.
+A simple approach to monitor domains for new subdomains, and receiving Discord/Slack notifications when new subdomains are discovered.
 
 
 ### Requirements
